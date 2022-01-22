@@ -1,6 +1,6 @@
 /*  
     @autor: Guiventura6;
-    @data: 21/01/2022;
+    @data: 22/01/2022;
     @Problema: Triangle Types;
 */
 #include <stdio.h>
