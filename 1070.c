@@ -3,7 +3,7 @@
     @data: 22/01/2022;
     @Problema: Six Odd Numbers;
 */
-#include <string.h>
+#include <stdio.h>
 
 int main () {
     
