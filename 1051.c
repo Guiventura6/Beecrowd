@@ -3,7 +3,7 @@
     @data: 22/01/2022;
     @Problema: Taxes;
 */
-#include <string.h>
+#include <stdio.h>
 
 int main () {
     
