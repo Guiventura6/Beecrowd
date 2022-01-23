@@ -3,7 +3,7 @@
     @data: 22/01/2022;
     @Problema: Even Between five Numbers;
 */
-#include <string.h>
+#include <stdio.h>
 
 int main () {
     
