@@ -12,9 +12,9 @@ int main () {
 
     long n;
     
-    scanf("%d", &n);    
+    scanf("%ld", &n);    
 
-    printf("%d\n", fatorial(n));
+    printf("%ld\n", fatorial(n));
 
     return 0;
 }
