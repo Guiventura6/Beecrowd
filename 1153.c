@@ -1,22 +1,27 @@
 /*  
     @autor: Guiventura6;
-    @data: 24/01/2022;
+    @data: 29/01/2022;
     @Problema: Simple Factorial;
 */
 #include <stdio.h>
+/* Funcao recursiva para fatoriais */
+
+long fatorial(long);
 
 int main () {
 
-    int i, n, sum;
-
-    scanf("%d", &n);
-
-    sum = 1;
-    for (i = 1; i <= n; i++) {
-       sum *= i;
-    }
+    long n;
     
-    printf("%d\n", sum);
-    
+    scanf("%d", &n);    
+
+    printf("%d\n", fatorial(n));
+
     return 0;
+}
+/* Definição recursiva da funcao fatorial */
+long fatorial(long numero) {
+    if (numero <= 1)
+        return 1;
+    else
+        return (numero * fatorial(numero - 1));
 }
