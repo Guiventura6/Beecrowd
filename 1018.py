@@ -5,16 +5,8 @@
     Resume: Program that read an integer value and calculate the smallest possible number of banknotes
     in which the value may be decomposed.The possible banknotes are 100, 50, 20, 10, 5, 2 and 1.
 ''' 
-amount = 0
-notesOf100 = 0 
-notesOf50 = 0
-notesOf20 = 0 
-notesOf10 = 0 
-notesOf5 = 0
-notesOf2 = 0
-rest = 0   
-
 amount = int(input())
+
 notesOf100 = amount // 100
 rest = amount % 100
 notesOf50 = rest // 50
