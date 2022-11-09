@@ -2,7 +2,8 @@
     Autor: Guiventura6;
     Data: 07/03/2022;
     Problema: Average 3;
-    Resume:Program that reads four scores obtained by a student and calculates the average.
+    Resume:Program that reads four scores obtained by a student and calculates 
+    the average.
 '''
 if __name__ == '__main__':
 
@@ -24,5 +25,3 @@ if __name__ == '__main__':
         else:
             print('Aluno reprovado.')
         print('Media final: {:.1f}'.format(new_score))
-
-
