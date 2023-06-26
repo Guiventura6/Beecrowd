@@ -17,7 +17,7 @@ int main() {
         for (j = 1; j < x; j++) {
             if (x % j == 0) {
                 sum += j;
-            }                        
+            }
         }
 
         if (sum == x)
