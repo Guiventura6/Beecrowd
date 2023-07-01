@@ -1,17 +1,21 @@
 '''
-    Autor: Guiventura6;
-    Data: 06/03/2022;
-    Problema: Bhaskara's Formula;
+    Autor: Guiventura6
+    Data: 06/03/2022
+    Modified: (30/06/2023,)
+    Problema: Bhaskara's Formula
     Resume:Program that calculates roots of bhaskara's formula.
 '''
 import math
 
+
 class Error(Exception):
     pass
+
 
 class ImpossibleCalculateError(Error):
     def __init__(self, message):
         self.message = message
+
 
 if __name__ == '__main__':
     try:

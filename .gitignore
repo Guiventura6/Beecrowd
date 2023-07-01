@@ -53,6 +53,7 @@ dkms.conf
 
 #vsCode
 *.vscode
+*.venv
 
 # Compiled programs
 */output

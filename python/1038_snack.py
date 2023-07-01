@@ -1,10 +1,13 @@
 '''
-    Autor: Guiventura6;
-    Data: 06/03/2022;
-    Problema: Snack;
-    Resume:Program that reads a cod and the amount of a product and calculates the value
-    to pay
+    Autor: Guiventura6
+    Data: 06/03/2022
+    Modified: (30/06/2023,)
+    Problema: Snack
+    Resume:Program that reads a cod and the amount of a product and calculates
+    the value to pay
 '''
+
+
 def calculate_payment(cod_product, units):
     products = {
         (1, 'Cachorro Quente', 4.00),
@@ -13,16 +16,16 @@ def calculate_payment(cod_product, units):
         (4, 'Torrada simples', 2.00),
         (5, 'Refrigerante', 1.50)
     }
+
     payment = 0.0
     for product in products:
-        cod, name_product, price = product
+        cod, _, price = product
         if cod == cod_product:
             payment = price * units
             break
     return payment
 
+
 if __name__ == '__main__':
-
     code, units = map(int, input().split())
-
     print('Total: R$ {:.2f}'.format(calculate_payment(code, units)))

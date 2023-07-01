@@ -2,7 +2,7 @@
     Autor: Guiventura6;
     Data: 07/03/2022;
     Problema: Average 3;
-    Resume:Program that reads four scores obtained by a student and calculates 
+    Resume:Program that reads four scores obtained by a student and calculates
     the average.
 '''
 if __name__ == '__main__':

@@ -1,16 +1,21 @@
 '''
     Autor: Guiventura6;
     Data: 06/03/2022;
-    Problema: Interval;
+    Modified: (30/06/2023,)
+    Problema: Interval
     Resume:Program that reads a float-point number and checks if there number
     is in a range.
 '''
+
+
 class Error(Exception):
     pass
+
 
 class IntervalError(Error):
     def __init__(self, message):
         self.message = message
+
 
 if __name__ == '__main__':
 
